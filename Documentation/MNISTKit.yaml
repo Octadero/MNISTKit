@@ -1,0 +1,23 @@
+module: MNISTKit
+module_version: 0.0.1
+
+author: Volodymyr Pavliukevych
+author_url: https://octadero.com
+
+github_url: https://github.com/Octadero/MNISTKit
+github_file_prefix: https://github.com/Octadero/MNISTKit
+
+exclude:
+  - "Documentation/*"
+copyright: '© 2017 [Octadeor](https://octadero.com) under [open source license](https://github.com/Octadero/MNISTKit/blob/master/LICENSE).'
+
+swift_version: 4.0
+
+theme: themes
+output: MNISTKit
+
+sourcekitten_sourcefile: MNISTKit.json
+
+clean: true
+
+min_acl: private
