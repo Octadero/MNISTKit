@@ -25,7 +25,7 @@ let package = Package(
         .library(name: "MNISTKit", targets: ["MNISTKit"])
     ],
     dependencies: [
-        .package(url: "git@github.com:Octadero/Unarchiver.git", from: "0.0.5")
+        .package(url: "https://github.com/Octadero/Unarchiver.git", from: "0.0.5")
     ],
     targets: [
         .target(name: "MNISTKit", dependencies: ["Unarchiver"]),
