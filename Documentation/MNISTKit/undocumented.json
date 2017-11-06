@@ -1,257 +1,257 @@
 {
   "warnings": [
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
       "line": 23,
       "symbol": "DataSetProvider.trainImagesURL",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
       "line": 24,
       "symbol": "DataSetProvider.trainLabelsURL",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
       "line": 25,
       "symbol": "DataSetProvider.testImagesURL",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
       "line": 26,
       "symbol": "DataSetProvider.testLabelsURL",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
       "line": 27,
       "symbol": "DataSetProvider.datasetFolder",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
       "line": 29,
       "symbol": "DataSetProvider.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/DataSetProvider.swift",
       "line": 31,
       "symbol": "DataSetProvider.createDatasetFolder()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 21,
       "symbol": "Data.asArray()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 31,
       "symbol": "MNISTFile.kind",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 32,
       "symbol": "MNISTFile.fileURL",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 33,
       "symbol": "MNISTFile.fileHandle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 48,
       "symbol": "MNISTFile.init(fileURL:kind:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 60,
       "symbol": "MNISTImagesFile",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 64,
       "symbol": "MNISTImagesFile.numberOfRows",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 65,
       "symbol": "MNISTImagesFile.numberOfImages",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 66,
       "symbol": "MNISTImagesFile.images",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 75,
       "symbol": "MNISTImagesFile.readImageFileHeader()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 100,
       "symbol": "MNISTImagesFile.readImages()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 112,
       "symbol": "MNISTLabelsFile",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 113,
       "symbol": "MNISTLabelsFile.numberOfLabels",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 114,
       "symbol": "MNISTLabelsFile.labels",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 123,
       "symbol": "MNISTLabelsFile.readLabelsFileHeader()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTFile.swift",
       "line": 139,
       "symbol": "MNISTLabelsFile.readLabels()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
       "line": 20,
       "symbol": "MNISTKit",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
       "line": 25,
-      "symbol": "Kind.Stride",
+      "symbol": "MNISTFileKind.Stride",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
       "line": 26,
-      "symbol": "Kind.Stride.train",
+      "symbol": "MNISTFileKind.Stride.train",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
       "line": 27,
-      "symbol": "Kind.Stride.test",
+      "symbol": "MNISTFileKind.Stride.test",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
       "line": 30,
-      "symbol": "Kind.label",
+      "symbol": "MNISTFileKind.label",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
       "line": 31,
-      "symbol": "Kind.image",
+      "symbol": "MNISTFileKind.image",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
-      "line": 33,
-      "symbol": "Kind.fileName",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "line": 52,
+      "symbol": "MNISTFileKind.fileName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
-      "line": 42,
-      "symbol": "Kind.fileNames",
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "line": 61,
+      "symbol": "MNISTFileKind.fileNames",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
-      "line": 53,
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "line": 72,
       "symbol": "MNISTDatasetError.loadDataset",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
-      "line": 58,
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "line": 77,
       "symbol": "MNISTDataset.files",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
-      "line": 60,
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "line": 84,
       "symbol": "MNISTDataset.loadCallback",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
-      "line": 61,
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "line": 85,
       "symbol": "MNISTDataset.init(callback:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/roaming/Projects/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
-      "line": 72,
+      "file": "/Users/roaming/Projects/GitHub/MNISTKit/Sources/MNISTKit/MNISTKit.swift",
+      "line": 96,
       "symbol": "MNISTDataset.prepare()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/roaming/Projects/MNISTKit"
+  "source_directory": "/Users/roaming/Projects/GitHub/MNISTKit"
 }
