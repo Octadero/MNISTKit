@@ -21,7 +21,7 @@ public struct MNISTKit {
 }
 
 /// Represents MNIST file kind, image or label
-public enum Kind {
+public enum MNISTFileKind: Equatable, Hashable {
     public enum Stride: String {
         case train = "train"
         case test = "t10k"
@@ -29,6 +29,25 @@ public enum Kind {
     
     case label(stride: Stride)
     case image(stride: Stride)
+    
+    /// Equatable for comparing
+    public static func ==(lhs: MNISTFileKind, rhs: MNISTFileKind) -> Bool {
+        return lhs.hashValue == rhs.hashValue
+    }
+    
+    /// Simple, but fast work.
+    public var hashValue: Int {
+        switch self {
+        case .label(stride: .train):
+            return 0
+        case .label(stride: .test):
+            return 1
+        case .image(stride: .train):
+            return 2
+        case .image(stride: .test):
+            return 3
+        }
+    }
     
     public var fileName: String {
         switch self {
@@ -39,12 +58,12 @@ public enum Kind {
         }
     }
     
-    public static var fileNames: [String : Kind] {
+    public static var fileNames: [String : MNISTFileKind] {
         return [
-            Kind.image(stride: .test).fileName : Kind.image(stride: .test),
-            Kind.image(stride: .train).fileName : Kind.image(stride: .train),
-            Kind.label(stride: .test).fileName : Kind.label(stride: .test),
-            Kind.label(stride: .train).fileName : Kind.label(stride: .train),
+            MNISTFileKind.image(stride: .test).fileName : MNISTFileKind.image(stride: .test),
+            MNISTFileKind.image(stride: .train).fileName : MNISTFileKind.image(stride: .train),
+            MNISTFileKind.label(stride: .test).fileName : MNISTFileKind.label(stride: .test),
+            MNISTFileKind.label(stride: .train).fileName : MNISTFileKind.label(stride: .train),
         ]
     }
 }
@@ -56,6 +75,11 @@ public enum MNISTDatasetError: Error {
 /// Represents list of MNIST files in dataset.
 public class MNISTDataset {
     public private(set) var files = [MNISTFile]()
+    
+    /// Return files of specified type.
+    public func files(`for` kind: MNISTFileKind) -> [MNISTFile] {
+        return files.filter { $0.kind == kind }
+    }
     
     let loadCallback: (_ error: Error?) -> Void
     public init(callback: @escaping (_ error: Error?) -> Void) {
@@ -86,7 +110,7 @@ public class MNISTDataset {
                 
                 for file in datasetFiles {
                     let fileName = file.lastPathComponent
-                    if let kind = Kind.fileNames[fileName] {
+                    if let kind = MNISTFileKind.fileNames[fileName] {
                         let mnistFile = try MNISTFile.load(fileURL: file, kind: kind)
                         self.files.append(mnistFile)
                     }

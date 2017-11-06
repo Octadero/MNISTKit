@@ -28,12 +28,12 @@ extension Data {
 
 /// Represent file
 public class MNISTFile: CustomStringConvertible {
-    public internal(set) var kind: Kind
+    public internal(set) var kind: MNISTFileKind
     public internal(set) var fileURL: URL
     internal var fileHandle: FileHandle
 
     /// Fabric
-    static func load(fileURL: URL, kind: Kind) throws -> MNISTFile {
+    static func load(fileURL: URL, kind: MNISTFileKind) throws -> MNISTFile {
         switch kind {
         case .image(_):
             let imageFile = try MNISTImagesFile(fileURL: fileURL, kind: kind)
@@ -45,7 +45,7 @@ public class MNISTFile: CustomStringConvertible {
         }
     }
     
-    public  init(fileURL: URL, kind: Kind) throws {
+    public  init(fileURL: URL, kind: MNISTFileKind) throws {
         self.kind = kind
         self.fileURL = fileURL
         print("load: ", fileURL)
@@ -66,7 +66,7 @@ public class MNISTImagesFile: MNISTFile {
     public private(set) var images = [[Float]]()
     
     /// Label file
-    public override init(fileURL: URL, kind: Kind) throws {
+    public override init(fileURL: URL, kind: MNISTFileKind) throws {
         try super.init(fileURL: fileURL, kind: kind)
         readImageFileHeader()
         readImages()
@@ -114,7 +114,7 @@ public class MNISTLabelsFile: MNISTFile {
     public private(set) var labels = [UInt8]()
     
     /// Label file
-    public override init(fileURL: URL, kind: Kind) throws {
+    public override init(fileURL: URL, kind: MNISTFileKind) throws {
         try super.init(fileURL: fileURL, kind: kind)
         readLabelsFileHeader()
         readLabels()
