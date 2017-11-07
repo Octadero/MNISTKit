@@ -102,6 +102,7 @@ public class DataSetProvider {
             let unzippedFileURL = file.deletingPathExtension()
             if skipIfExist && FileManager.default.fileExists(atPath: unzippedFileURL.path) {
                 debugPrint("skip \(unzippedFileURL)")
+                unzippedURLs.append(unzippedFileURL)
                 continue
             }
             debugPrint("File \(unzippedFileURL) not found. Unzipping ...")
