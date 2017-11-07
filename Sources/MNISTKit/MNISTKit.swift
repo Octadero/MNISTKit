@@ -82,6 +82,7 @@ public class MNISTDataset {
     }
     
     let loadCallback: (_ error: Error?) -> Void
+    
     public init(callback: @escaping (_ error: Error?) -> Void) {
         loadCallback = callback
         DispatchQueue.global().async {

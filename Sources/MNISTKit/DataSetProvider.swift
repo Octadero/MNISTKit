@@ -94,11 +94,17 @@ public class DataSetProvider {
         })
     }
     
-    /// Unarchive all datasets
-    public static func unarchive(zippedDataset: [URL]) throws -> [URL] {
+    /// Unarchive all datasets, skipIfExist is true by default.
+    /// Set skipIfExist to false if you need.
+    public static func unarchive(zippedDataset: [URL], skipIfExist: Bool = true) throws -> [URL] {
         var unzippedURLs = [URL]()
         for file in zippedDataset {
             let unzippedFileURL = file.deletingPathExtension()
+            if skipIfExist && FileManager.default.fileExists(atPath: unzippedFileURL.path) {
+                debugPrint("skip \(unzippedFileURL)")
+                continue
+            }
+            debugPrint("File \(unzippedFileURL) not found. Unzipping ...")
             let fileData = try Data.init(contentsOf: file)
             let unzippedData = try fileData.gunzipped()
             try unzippedData.write(to: unzippedFileURL)
